@@ -32,6 +32,10 @@ ul a{
   font-weight: 500;
 }
 
+ul a:hover {
+  color: #00BFA6;
+}
+
 a {
   text-decoration: none;
 }
@@ -57,14 +61,14 @@ span {
   color: #00BFA6;
 }
 
-p {
+section p {
   line-height: 28px;
   color: #C2C2C2;
   font-family: Open Sans;
 }
 
 #line {
-  border-top: 1px solid #00BFA6;
+  border-top: 2px solid #00BFA6;
   width: 568px;
   margin: 0 auto 27px;
 
@@ -73,6 +77,7 @@ p {
 #padlock {
   position: fixed;
   left: 0;
+  bottom: 0;
   margin: 0 0 20px 20px;
 }
 
@@ -84,4 +89,8 @@ footer{
 
 footer a {
   color: white;
+}
+
+footer a:hover {
+  color: #00BFA6;
 }
